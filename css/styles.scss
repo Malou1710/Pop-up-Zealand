@@ -39,6 +39,12 @@ img {
 	background-color: #fea2b9;
 	font-size: 1.3rem;
 }
+.titel1{
+	font-family: bebas-neue,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 50px;
+}
 
 .nav-link{
 	text-align: center;
@@ -67,7 +73,17 @@ img {
 	background-image: url("/images/navbar-skarp.svg");
 }
 
-
+.cta-button{
+	background-color: black;
+	color: white;
+	border-radius: 52px;
+	padding: 20px;
+	border: none;
+	font-family: bebas-neue,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 35px;
+}
 
 
 

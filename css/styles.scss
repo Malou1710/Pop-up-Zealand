@@ -37,3 +37,26 @@ img {
 	background-color: #fea2b9;
 	font-size: 1.3rem;
 }
+
+.burger{
+	font-family: bebas-neue,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: black;
+}
+
+.navbar{
+	font-size: 2.3rem;
+}
+
+.nav-link {
+	color: black!important;
+}
+
+.nav-link:hover{
+	color: #fca1b8 !important;
+}
+
+.navbar-light .navbar-toggler-icon{
+	background-image: url("/images/f4f34e0fa50d7f0db4c2030d9568021d.svg");
+}

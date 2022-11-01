@@ -9,6 +9,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
+	background-color: #0099fe;
 }
 
 ul, ol {
@@ -32,10 +33,15 @@ img {
 	height: auto;
 }
 
+
 .titel{
 	font-family: Bahnschrift;
 	background-color: #fea2b9;
 	font-size: 1.3rem;
+}
+
+.nav-link{
+	text-align: center;
 }
 
 .burger{

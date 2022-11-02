@@ -26,6 +26,8 @@ li {
 p {
 	margin: 0;
 	padding: 0;
+	font-family: Poppins;
+	font-size: 1.2rem;
 }
 
 img {
@@ -90,7 +92,19 @@ img {
 	background-color: #0a58ca;
 }
 
+.titel2{
+	font-family: bebas-neue,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 4.8rem;
+}
 
+.titel3{
+	font-family: bebas-neue,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2.2rem;
+}
 
 
 @media (max-width: 400px){
@@ -114,4 +128,44 @@ img {
 
 .form-group{
 	font-family: "Permanent Marker", sans-serif;
+}
+
+.form-control{
+	border: 1px solid black;
+}
+
+.labeltitle{
+	font-family: "Permanent Marker", sans-serif;
+	font-size: 20px;
+}
+
+input{
+	font-family: bebas-neue, sans-serif;
+	letter-spacing: 2px;
+	border: 1px solid black;
+}
+
+input:placeholder{
+	letter-spacing: 0px;
+}
+
+textarea{
+	resize: none;
+	width: 150px;
+	height: 200px;
+	font-family: bebas-neue, sans-serif;
+	letter-spacing: 1px;
+}
+
+.kontakt-titel{
+	font-family: bebas-neue, sans-serif;
+	font-size: 50px;
+}
+
+.sendbtn{
+	width: 150px;
+	height: 50px;
+	font-family: bebas-neue, sans-serif;
+	font-size: 25px;
+	border-radius: 50px;
 }

@@ -117,8 +117,39 @@ img {
 
 }
 
-.form-group{
-	font-family: "Permanent Marker", sans-serif;
+.form-control{
+	border: 1px solid black;
 }
 
-.form
+.sendbtn{
+	border-radius: 50px;
+	width: 105px;
+	height: 50px;
+	padding: 10px;
+	font-family: bebas-neue, sans-serif;
+	font-size: 20px;
+}
+
+
+.kontakt-titel{
+	font-size: 50px;
+	font-family: bebas-neue, sans-serif
+}
+
+.labeltitle{
+	font-family: "Permanent Marker", sans-serif;
+	font-size: 26px;
+}
+
+input{
+	font-family: bebas-neue, sans-serif;
+	font-weight: light;
+}
+
+textarea{
+	width: 200px;
+	height: 200px;
+	resize: none;
+	font-family: bebas-neue, sans-serif;
+	background-color: white;
+}

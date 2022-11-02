@@ -1,15 +1,16 @@
 * {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
 	margin: 0;
+	background-color: #f6ff32;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
-	background-color: #0099fe;
 }
 
 ul, ol {
@@ -115,3 +116,9 @@ img {
 	}
 
 }
+
+.form-group{
+	font-family: "Permanent Marker", sans-serif;
+}
+
+.form

@@ -86,25 +86,20 @@ img {
 	font-size: 35px;
 }
 
-.navbar-toggler{
-
+.navbar{
+	background-color: #0a58ca;
 }
 
 
 
 
-@media (max-width: 320px){
-	.navbar-nav{
-		line-height: 60px !important;
-		font-weight: lighter;
-		margin-top: 90px !important;
-		font-family: Rockwell, sans-serif;
-		text-align: center;
-		margin-left: 50px;
-	}
+@media (max-width: 400px){
 
-	.navbar-collapse{
-		font-size: 50px !important;
+	.titel1{
+		font-size: 23px;
+	}
+	.cta-button{
+		font-size: 1.2rem;
 	}
 }
 
@@ -120,5 +115,3 @@ img {
 .form-group{
 	font-family: "Permanent Marker", sans-serif;
 }
-
-.form

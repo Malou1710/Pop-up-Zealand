@@ -11,6 +11,7 @@ $custom-colors: (
   "blue": #0099fe,
   "white": #fff,
    "zealandyellow": #f6ff32,
+        "pink": #FEA2B9,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");

@@ -5,7 +5,7 @@
 
 body {
 	margin: 0;
-	background-color: #f6ff32;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -117,6 +117,15 @@ img {
 	}
 }
 
+@media (max-width: 1024px){
+	.form-control{
+		max-width: 400px;
+		display: inline-block;
+	}
+	.labeltitle{
+		display: inline-block;
+	}
+}
 
 @media (min-width: 1200px){
 	.teamet{
@@ -125,6 +134,7 @@ img {
 	}
 
 }
+
 
 .form-group{
 	font-family: "Permanent Marker", sans-serif;
@@ -168,4 +178,8 @@ textarea{
 	font-family: bebas-neue, sans-serif;
 	font-size: 25px;
 	border-radius: 50px;
+}
+
+.copyright{
+	font-family: bebas-neue, sans-serif;
 }

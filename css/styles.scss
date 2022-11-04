@@ -111,6 +111,19 @@ img {
 	height: 350px;
 }
 
+//.video{
+//	width: 310px;
+//	height: 181.8px;
+//}
+
+
+@media (min-width: 1651px){
+	.tekstboks{
+		padding-left: 250px;
+	}
+}
+
+
 
 @media (max-width: 400px){
 
@@ -126,6 +139,8 @@ img {
 	}
 
 }
+
+
 
 
 @media (max-width: 1024px){
@@ -146,6 +161,33 @@ img {
 
 }
 
+@media (max-width: 820px){
+	.navbar-nav{
+		min-height: 100vh;
+		transition: 2ms ease-in-out;
+		font-size: 50px;
+		margin-top: 100px;
+	}
+}
+@media (max-width: 768px){
+	.navbar-nav{
+		min-height: 100vh;
+		transition: 2ms ease-in-out;
+		font-size: 70px;
+		margin-top: 200px;
+	}
+
+}
+
+@media (max-width: 400px){
+
+	.navbar-nav{
+		min-height: 100vh;
+		transition: 2ms ease-in-out;
+		font-size: 90px;
+		margin-top: -100px;
+	}
+}
 
 .form-group{
 	font-family: "Permanent Marker", sans-serif;

@@ -106,6 +106,11 @@ img {
 	font-size: 2.2rem;
 }
 
+.clip{
+	width: 350px;
+	height: 350px;
+}
+
 
 @media (max-width: 400px){
 
@@ -115,7 +120,13 @@ img {
 	.cta-button{
 		font-size: 1.2rem;
 	}
+	.clip{
+		width: 300px;
+		height: 300px;
+	}
+
 }
+
 
 @media (max-width: 1024px){
 	.form-control{
@@ -155,7 +166,7 @@ input{
 	border: 1px solid black;
 }
 
-input:placeholder{
+input::placeholder {
 	letter-spacing: 0px;
 }
 
@@ -182,4 +193,49 @@ textarea{
 
 .copyright{
 	font-family: bebas-neue, sans-serif;
+}
+.omos-title{
+	font-family: bebas-neue, sans-serif;
+	font-size: 50px;
+}
+.omos-descrip{
+	font-family: jaf-bernino-sans-condensed,sans-serif;
+	font-weight: lighter;
+	font-style: normal;
+	font-size: 30px;
+}
+
+
+
+.picname{
+	font-family: bebas-neue, sans-serif;
+	letter-spacing: 1px;
+}
+.picjob{
+	font-family: "Permanent Marker", sans-serif;
+	font-size: 15px;
+}
+
+
+// customized scrollbar
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: black;
+	border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: black;
 }
